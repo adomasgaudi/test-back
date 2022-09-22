@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { Button, Div } from "../ossomComps";
 
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
             <h1>right</h1>
             <div className="p-5 flex-[0.8]">
               <Button.base v={Button.w()}>sdf</Button.base>
+              <Link href="/login">login</Link>
             </div>
           </div>
         }
